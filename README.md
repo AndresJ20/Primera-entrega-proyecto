@@ -1,9 +1,9 @@
 # Primera-entrega-proyecto
 Avance del proyecto
-# Qué es Python?
-
-# Qué es una variable?
-
+# ¿Qué es Python?
+Como sabemos Python es un lenguaje de programación interpretado, utilizamos códigos, es muy fácil de aprender, es elegante y nos ayuda en la práctica del aprendizaje.
+# ¿Qué es una variable?
+Aprendimos que una variable es una "caja" ya que existen elementos en ella.
 ## Nombrando una variable
 
 ## Asignando valores a una variable
