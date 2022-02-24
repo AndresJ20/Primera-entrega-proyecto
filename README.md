@@ -7,7 +7,9 @@ Aprendimos que una variable es una "caja" ya que existen elemento almacenando el
 ## 2.1.) Nombrando una variable
 Nombrar una variable significa el nombre que le daremos a la "caja" 
 ## 2.2.) Asignando valores a una variable
-
+A la asignación se le agrega un valor para identificarlo, el operador de una variable es ´´=´´ de derecha a izquierda
+Ejemplo:
+x = 20
 ## Operadores básicos
 
 ### Suma
