@@ -120,15 +120,16 @@ Las listas, son estructuras de datos más flexibles. Las listas están conformad
 ## 5.2.) Tuple
 Las tuplas, son tipos de condiciones además, son listas inmutables, ya que no se pueden modificar en ello. Las tuplas están conformadas por ().
 ## 5.3.) Dictionary
-Los diccionarios son tipos de colección, tienen dos elementos por posición (clave y valor)
+Los diccionarios son tipos de colección, tienen dos elementos por posición (clave y valor). Los diccionarios están conformadas por {}.
 # 6.) Tomando decisiones
-
+Encontramos una gran variedad en ella, nos ayudan a ejecutar bucles o ciclos de manera rápida. Estructura muy importante en la programación.
 ## 6.1.) Sentencia if
-
+El condicional if nos sirven para realizar una condición "Sí" deberá repetirse aquella condición. Si se cumple, se repite el ciclo, si no se cumple, sale del ciclo.
 ## 6.2.) Ciclo For
-
+El bucle se repetirá el número de veces que le indiquemos ya sea una tupla, lista, variables, etc.
 ## 6.3.) Ciclo While
-
+Al contrario del ciclo for, este bucle se repetirá indeterminadas o determinadas veces.
 ## 6.4.) Break
-
+En términos comunes se podría decir que esta condición "sale o se rompe del ciclo" cuando ejecute el programa.
 ## 6.5.) Continue
+A diferencia del ciclo break, este condicional nos ayuda a continuar a terminar el ciclo o "salta" el ciclo for a pesar que le indiquemos.
