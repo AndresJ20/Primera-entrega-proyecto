@@ -89,6 +89,7 @@ operación = num1 % num2
 print(operación) #Pedimos valores al usuario y obtendremos nuestro módulo
 
 # 4.) Tipos de datos en Python
+Los tipos de datos son aquellos que nos ayudarán a registrar datos de manera entera, decimal, cadena de caracteres, etc. Ayudan al momento de realizar cualquier operación
 ## 4.1.) Integer
 También conocida cómo "Int" o "Entero", al realizar este tipo de dato númerico, nuestro resultado será de forma entera sin ningún decimal. La podemos realizar de dos maneras:
 ### 4.1.1.) Pidiendo valores al usuario
@@ -98,9 +99,20 @@ print("Su numero es: ", num1) #El usuario sólo aceptará números enteros
 a = 8.456
 print(int(a)) #La variable "a" está de forma decimal, al imprimir el texto por pantalla, se convertirá en entero
 ## 4.2.) Float
-
+Es lo contrario a la función "Int", los números en esta sección serán "flotantes", es decir, serán decimales. La podemos realizar de dos maneras:
+### 4.2.1.) Pidiendo valores al usuario
+num1 = float(input("Dígite un valor: "))
+print("Su numero es: ", num1) #El usuario sólo aceptará números decimales
+### 4.2.2) Asignando valores
+a = 8.456
+print(float(a)) #La variable "a" está de forma decimal, al imprimir el texto por pantalla, seguirá decimal o a su vez, se redondea.
 ## 4.3) String
-
+Comprendí que este tipo de datos nos permitirá unir las variables tanto como numéricas o escritas, formando varias asignaciones para tener una sola. Ejemplo:
+nombre= "Soy Andrés Jaramillo, tengo"
+numero= 19
+edad= "años"
+variable= nombre + "" + str(numero) + "" + edad
+print(variable) #Obtendremos nuestra frase
 ## 5.) Casting en Python
 
 ## 5.1.) List
