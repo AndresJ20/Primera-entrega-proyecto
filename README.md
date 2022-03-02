@@ -14,15 +14,15 @@ x = 20
 En python podemos realizar operaciones básicas matemáticas sin ningún problema.
 ### 3.1.) Suma
 Podemos realizar la suma de tres diversas formas:
-##-1.) Asignanción de variables:
+#### -1.) Asignanción de variables:
 a = 8
 b = 2
 print(a+b) #Al realizar este proceso, obtendremos nuestra suma
--2) Operadores de asignación
+#### -2) Operadores de asignación
 a = 8
 a += 2
 print(a) #Obtendremos nuestra suma ya que asignamos que nuestra variable "a" que vale 8 se sume +2
--3) Pidiendo al usuario valores:
+#### -3) Pidiendo al usuario valores:
 num1 = int(input("Dígite un valor: "))
 num2 = int(input("Dígite un valor: "))
 operación = num1 + num2
