@@ -27,7 +27,7 @@ num1 = int(input("Dígite un valor: "))
 num2 = int(input("Dígite un valor: "))
 operación = num1 + num2
 print(operación) #Pedimos valores al usuario y obtendremos nuestra suma
-### Resta
+### 3.2.) Resta
 Podemos realizar la resta de tres diversas formas:
 #### 1.) Asignanción de variables:
 a = 8
@@ -42,7 +42,7 @@ num1 = int(input("Dígite un valor: "))
 num2 = int(input("Dígite un valor: "))
 operación = num1 - num2
 print(operación) #Pedimos valores al usuario y obtendremos nuestra resta
-### Multiplicación
+### 3.3.) Multiplicación
 Podemos realizar la multiplicación de tres diversas formas:
 #### 1.) Asignanción de variables:
 a = 8
@@ -57,7 +57,7 @@ num1 = int(input("Dígite un valor: "))
 num2 = int(input("Dígite un valor: "))
 operación = num1 * num2
 print(operación) #Pedimos valores al usuario y obtendremos nuestra multiplicación
-### División
+### 3.4.) División
 Podemos realizar la división de tres diversas formas:
 #### 1.) Asignanción de variables:
 a = 25
@@ -72,7 +72,7 @@ num1 = int(input("Dígite un valor: "))
 num2 = int(input("Dígite un valor: "))
 operación = num1 / num2
 print(operación) #Pedimos valores al usuario y obtendremos nuestra división
-### Módulo
+### 3.5.) Módulo
 Podemos realizar el módulo de tres diversas formas:
 #### 1.) Asignanción de variables:
 a = 11
