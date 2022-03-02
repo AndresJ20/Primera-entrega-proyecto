@@ -88,30 +88,29 @@ num2 = int(input("Dígite un valor: "))
 operación = num1 % num2
 print(operación) #Pedimos valores al usuario y obtendremos nuestro módulo
 
-# Tipos de datos en Python
+# 4.) Tipos de datos en Python
+## 4.1.) Integer
 
-## Integer
+## 4.2.) Float
 
-## Float
+## 4.3) String
 
-## String
+## 4.4.) Casting en Python
 
-## Casting en Python
+## 4.5.) List
 
-## List
+## 4.6.) Tuple
 
-## Tuple
+## 4.7.) Dictionary
 
-## Dictionary
+# 5.) Tomando decisiones
 
-# Tomando decisiones
+## 5.1.) Sentencia if
 
-## Sentencia if
+## 5.2.) Ciclo For
 
-## Ciclo For
+## 5.3.) Ciclo While
 
-## Ciclo While
+## 5.4.) Break
 
-## Break
-
-## Continue
+## 5.5.) Continue
