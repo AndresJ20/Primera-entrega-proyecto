@@ -116,11 +116,11 @@ print(variable) #Obtendremos nuestra frase
 ## 5.) Casting en Python
 Los tipos de casting nos ayudarán a convertir un tipo de dato a otro.
 ## 5.1.) List
-
+Las listas, son estructuras de datos más flexibles. Las listas están conformadas por [] almacenando cualquier tipo de valor (númerico, cadenas, etc).
 ## 5.2.) Tuple
-
+Las tuplas, son tipos de condiciones además, son listas inmutables, ya que no se pueden modificar en ello. Las tuplas están conformadas por ().
 ## 5.3.) Dictionary
-
+Los diccionarios son tipos de colección, tienen dos elementos por posición (clave y valor)
 # 6.) Tomando decisiones
 
 ## 6.1.) Sentencia if
