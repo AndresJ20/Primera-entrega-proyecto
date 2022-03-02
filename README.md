@@ -114,7 +114,7 @@ edad= "años"
 variable= nombre + "" + str(numero) + "" + edad
 print(variable) #Obtendremos nuestra frase
 ## 5.) Casting en Python
-
+Los tipos de casting nos ayudarán a convertir un tipo de dato a otro.
 ## 5.1.) List
 
 ## 5.2.) Tuple
