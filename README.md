@@ -101,22 +101,22 @@ print(int(a)) #La variable "a" está de forma decimal, al imprimir el texto por 
 
 ## 4.3) String
 
-## 4.4.) Casting en Python
+## 5.) Casting en Python
 
-## 4.5.) List
+## 5.1.) List
 
-## 4.6.) Tuple
+## 5.2.) Tuple
 
-## 4.7.) Dictionary
+## 5.3.) Dictionary
 
-# 5.) Tomando decisiones
+# 6.) Tomando decisiones
 
-## 5.1.) Sentencia if
+## 6.1.) Sentencia if
 
-## 5.2.) Ciclo For
+## 6.2.) Ciclo For
 
-## 5.3.) Ciclo While
+## 6.3.) Ciclo While
 
-## 5.4.) Break
+## 6.4.) Break
 
-## 5.5.) Continue
+## 6.5.) Continue
