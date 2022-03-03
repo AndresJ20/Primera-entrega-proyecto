@@ -13,7 +13,7 @@ Ejemplo:
 # 3.) Operadores básicos
 En python podemos realizar operaciones básicas matemáticas sin ningún problema.
 ## 3.1.) Suma
-```Podemos realizar la suma de tres diversas formas:
+Podemos realizar la suma de tres diversas formas:
 ### 3.1.1.) Asignanción de variables:
 a = 8
 b = 2
@@ -26,10 +26,10 @@ print(a) #Obtendremos nuestra suma ya que asignamos que nuestra variable "a" que
 num1 = int(input("Dígite un valor: "))
 num2 = int(input("Dígite un valor: "))
 operación = num1 + num2
-print(operación) #Pedimos valores al usuario y obtendremos nuestra suma```
+print(operación) #Pedimos valores al usuario y obtendremos nuestra suma
 
 ## 3.2.) Resta
-```Podemos realizar la resta de tres diversas formas:
+Podemos realizar la resta de tres diversas formas:
 ### 3.2.1.) Asignanción de variables:
 a = 8
 b = 2
@@ -42,7 +42,7 @@ print(a) #Obtendremos nuestra resta ya que asignamos que nuestra variable "a" qu
 num1 = int(input("Dígite un valor: "))
 num2 = int(input("Dígite un valor: "))
 operación = num1 - num2
-print(operación) #Pedimos valores al usuario y obtendremos nuestra resta```
+print(operación) #Pedimos valores al usuario y obtendremos nuestra resta
 ## 3.3.) Multiplicación
 Podemos realizar la multiplicación de tres diversas formas:
 ### 3.3.1.) Asignanción de variables:
