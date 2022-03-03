@@ -15,24 +15,23 @@ En python podemos realizar operaciones básicas matemáticas sin ningún problem
 ## 3.1.) Suma
 Podemos realizar la suma de tres diversas formas:
 ### 3.1.1.) Asignanción de variables:
-        a = 8
-        b = 2
-        print(a+b) #Al realizar este proceso, obtendremos nuestra suma
+    a = 8
+    b = 2
+    print(a+b) #Al realizar este proceso, obtendremos nuestra suma
 ### 3.1.2.) Operadores de asignación
-        a = 8
-        a += 2
-        print(a) #Obtendremos nuestra suma ya que asignamos que nuestra variable "a" que vale 8 se sume +2```
+    a = 8
+    a += 2
+    print(a) #Obtendremos nuestra suma ya que asignamos que nuestra variable "a" que vale 8 se sume +2```
 ### 3.1.3.) Pidiendo al usuario valores:
-        num1 = int(input("Dígite un valor: "))
-        num2 = int(input("Dígite un valor: "))
-        operación = num1 + num2
-        print(operación) #Pedimos valores al usuario y obtendremos nuestra suma
-
+    num1 = int(input("Dígite un valor: "))
+    num2 = int(input("Dígite un valor: "))
+    operación = num1 + num2
+    print(operación) #Pedimos valores al usuario y obtendremos nuestra suma
 ## 3.2.) Resta
 Podemos realizar la resta de tres diversas formas:
 ### 3.2.1.) Asignanción de variables:
-a = 8
-b = 2
+    a = 8
+    b = 2
 print(a-b) #Al realizar este proceso, obtendremos nuestra resta
 ### 3.2.2.) Operadores de asignación
 a = 8
