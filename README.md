@@ -20,7 +20,7 @@ En python podemos realizar operaciones básicas matemáticas sin ningún problem
    Potenciación = **
 ```
 ## 3.1.) Suma
-Podemos realizar la suma de tres diversas formas:
+Su signo es `+`. Podemos realizar la suma de tres diversas formas:
 ### 3.1.1.) Asignanción de variables:
     a = 8
     b = 2
@@ -35,7 +35,7 @@ Podemos realizar la suma de tres diversas formas:
     operación = num1 + num2
     print(operación) #Pedimos valores al usuario y obtendremos nuestra suma
 ## 3.2.) Resta
-Podemos realizar la resta de tres diversas formas:
+Su signo es `-`.Podemos realizar la resta de tres diversas formas:
 ### 3.2.1.) Asignanción de variables:
     a = 8
     b = 2
@@ -50,7 +50,7 @@ Podemos realizar la resta de tres diversas formas:
     operación = num1 - num2
     print(operación) #Pedimos valores al usuario y obtendremos nuestra resta
 ## 3.3.) Multiplicación
-Podemos realizar la multiplicación de tres diversas formas:
+Su signo es `* ` Podemos realizar la multiplicación de tres diversas formas:
 ### 3.3.1.) Asignanción de variables:
     a = 8
     b = 2
@@ -65,7 +65,7 @@ Podemos realizar la multiplicación de tres diversas formas:
     operación = num1 * num2
     print(operación) #Pedimos valores al usuario y obtendremos nuestra multiplicación
 ## 3.4.) División
-Podemos realizar la división de tres diversas formas:
+Su signo es `/`.Podemos realizar la división de tres diversas formas:
 ### 3.4.1.) Asignanción de variables:
     a = 25
     b = 5
@@ -80,7 +80,7 @@ Podemos realizar la división de tres diversas formas:
     operación = num1 / num2
     print(operación) #Pedimos valores al usuario y obtendremos nuestra división
 ## 3.5.) Módulo
-Podemos realizar el módulo de tres diversas formas:
+Su signo es `%`. Podemos realizar el módulo de tres diversas formas:
 ### 3.5.1.) Asignanción de variables:   
     a = 11
     b = 8
@@ -168,7 +168,7 @@ if numero>=1 and numero <= 10:
     print("1-10")
 #El ciclo while, especifica que se repetira muchas veces, aceptará cualquier número, tanto negativo como positivo, a excepción que se digite 1 o 10, donde se saldrá del bucle.
 ```
-## 6.4.) Break
+## 6.4.) Ciclo Break
 En términos comunes se podría decir que esta condición "sale o se rompe del ciclo" cuando ejecute el programa.
 ```
 j = 0
@@ -179,7 +179,7 @@ for i in range(10):
         break 
 #En este ejercicio, estamos registrando números, donde "i" aumentará en 1 y "j" aumentará en +2, es decir, cuando "j" sea igual a 10, la función "break" romperá y saldrá del ciclo.
 ```
-## 6.5.) Continue
+## 6.5.) Ciclo Continue
 A diferencia del ciclo break, este condicional nos ayuda a continuar a terminar el ciclo o "salta" el ciclo for a pesar que le indiquemos.
 ```
 j = 0
@@ -187,6 +187,7 @@ for i in range(10):
     j+=2
     print("i:",i,"j:", j)
     if j >= 2 and j <=6:
-        continue #Salta del ciclo for
+        continue 
     print("El valor de j:", j)
+#En este ejercicio el "i" tendrá un rango hasta "10", "j" aumentará en +2, "j" salta el ciclo "if" y continua del ciclo hasta detenerse.
 ```
