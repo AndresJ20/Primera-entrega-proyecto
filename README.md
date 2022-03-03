@@ -137,11 +137,37 @@ Los diccionarios son tipos de colección, tienen dos elementos por posición (cl
 # 6.) Tomando decisiones
 Encontramos una gran variedad en ella, nos ayudan a ejecutar bucles o ciclos de manera rápida. Estructura muy importante en la programación.
 ## 6.1.) Sentencia if
-El condicional if nos sirven para realizar una condición "Sí" deberá repetirse aquella condición. Si se cumple, se repite el ciclo, si no se cumple, sale del ciclo.
+El condicional if nos sirven para realizar una condición "Sí" deberá repetirse aquella condición. Si se cumple, se repite el ciclo, si no se cumple, sale del ciclo. Existe también otras condicionales como "elif" y "else", elif nos ayudará a verificar varias condiciones y else realiza la condición "No" y sale del ciclo
+```
+numero = int(input("Digite un numero: "))
+if numero > 0:
+   print("El numero es positivo)
+elif numero == 0:
+   print("El numero es 0")
+else:
+   print("El numero es negativo")
+#Al realizar este ejercicio, el usuario pide un valor, al registrarlo, el "if" servirá para identificar si es positivo saldrá del ciclo, como sabemos "0" no es positivo ni negativo, es decir, el elif nos servirá para identificarlo, o a su vez, si el usuario digita un número negativo, omitirá el "if" y "elif" e irá directamente al "else" 
+```
 ## 6.2.) Ciclo For
 El bucle se repetirá el número de veces que le indiquemos ya sea una tupla, lista, variables, etc.
+```
+n = 5
+cubo_cuarta = 0
+for i in range(n):
+    numero = int(input("Ingrese un numero: " + str(i+1) + ": "))
+    print("Cubo y cuarta de",numero,"son",numero**3,"y",numero**4)
+# El "n" nos ayuda a repetir el ciclo el número de veces que queremos, en este caso, se repetirá 5 veces, lo que estamos pidiendo es ingresar un número al usuario, donde obtendremos el cubo y la cuarta de ese número
+```
 ## 6.3.) Ciclo While
 Al contrario del ciclo for, este bucle se repetirá indeterminadas o determinadas veces.
+```
+numero = -1
+while numero < 0:
+    numero = int(input("Ingresar numeros positivos: "))
+if numero>=1 and numero <= 10:
+    print("1-10")
+#El ciclo while, especifica que se repetira muchas veces, aceptará cualquier número, tanto negativo como positivo, a excepción que se digite 1 o 10, donde se saldrá del bucle.
+```
 ## 6.4.) Break
 En términos comunes se podría decir que esta condición "sale o se rompe del ciclo" cuando ejecute el programa.
 ## 6.5.) Continue
