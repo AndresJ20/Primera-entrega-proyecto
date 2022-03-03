@@ -170,5 +170,23 @@ if numero>=1 and numero <= 10:
 ```
 ## 6.4.) Break
 En términos comunes se podría decir que esta condición "sale o se rompe del ciclo" cuando ejecute el programa.
+```
+j = 0
+for i in range(10):
+    j+=2
+    print("i:",i,"j:", j)
+    if j == 10:
+        break 
+#En este ejercicio, estamos registrando números, donde "i" aumentará en 1 y "j" aumentará en +2, es decir, cuando "j" sea igual a 10, la función "break" romperá y saldrá del ciclo.
+```
 ## 6.5.) Continue
 A diferencia del ciclo break, este condicional nos ayuda a continuar a terminar el ciclo o "salta" el ciclo for a pesar que le indiquemos.
+```
+j = 0
+for i in range(10):
+    j+=2
+    print("i:",i,"j:", j)
+    if j >= 2 and j <=6:
+        continue #Salta del ciclo for
+    print("El valor de j:", j)
+```
