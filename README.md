@@ -123,7 +123,10 @@ print(variable) #Obtendremos nuestra frase
 ## 5.) Casting en Python
 Los tipos de casting nos ayudarán a convertir un tipo de dato a otro.
 ```
-
+sueldo = 780.50
+print(int(sueldo)) # El valor decimal será transformado a entero
+salario = 790.455
+print(float(salario)) #El valor con muchos decimales, se convertirá a un solo decimal
 ```
 ## 5.1.) List
 Las listas, son estructuras de datos más flexibles. Las listas están conformadas por [] almacenando cualquier tipo de valor (númerico, cadenas, etc).
