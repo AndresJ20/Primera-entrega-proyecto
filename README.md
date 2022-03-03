@@ -32,7 +32,7 @@ Podemos realizar la resta de tres diversas formas:
 ### 3.2.1.) Asignanción de variables:
     a = 8
     b = 2
-print(a-b) #Al realizar este proceso, obtendremos nuestra resta
+print(a-b) #Al realizar este proceso, obtendremos nuestra resta:
 ### 3.2.2.) Operadores de asignación
     a = 8
     a -= 2
