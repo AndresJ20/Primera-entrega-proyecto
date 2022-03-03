@@ -7,11 +7,18 @@ Aprendimos que una variable es una "caja" ya que existen elemento almacenando el
 ## 2.1.) Nombrando una variable
 Nombrar una variable significa el nombre que le daremos a la "caja" 
 ## 2.2.) Asignando valores a una variable
-A la asignación se le agrega un valor para identificarlo, el operador de una variable es ´´=´´ de derecha a izquierda.
+A la asignación se le agrega un valor para identificarlo, el operador de una variable es "=" de derecha a izquierda.
 Ejemplo:
 ```x = 20```
 # 3.) Operadores básicos
-En python podemos realizar operaciones básicas matemáticas sin ningún problema.
+En python podemos realizar operaciones básicas matemáticas sin ningún problema. Operaciones como:
+```Suma = +
+   Resta = -
+   Multiplicación = *
+   División = /
+   Módulo = %
+   Potenciación = **
+```
 ## 3.1.) Suma
 Podemos realizar la suma de tres diversas formas:
 ### 3.1.1.) Asignanción de variables:
@@ -107,13 +114,17 @@ Es lo contrario a la función "Int", los números en esta sección serán "flota
     print(float(a)) #La variable "a" está de forma decimal, al imprimir el texto por pantalla, seguirá decimal o a su vez, se redondea.
 ## 4.3) String
 Comprendí que este tipo de datos nos permitirá unir las variables tanto como numéricas o escritas, formando varias asignaciones para tener una sola. Ejemplo:
-    nombre= "Soy Andrés Jaramillo, tengo"
-    numero= 19
-    edad= "años"
-    variable= nombre + "" + str(numero) + "" + edad
-    print(variable) #Obtendremos nuestra frase
+```
+nombre = "Soy Andrés Jaramillo, tengo" 
+numero= 19 edad= "años" 
+variable= nombre + "" + str(numero) + "" + edad 
+print(variable) #Obtendremos nuestra frase
+```
 ## 5.) Casting en Python
 Los tipos de casting nos ayudarán a convertir un tipo de dato a otro.
+```
+
+```
 ## 5.1.) List
 Las listas, son estructuras de datos más flexibles. Las listas están conformadas por [] almacenando cualquier tipo de valor (númerico, cadenas, etc).
 ## 5.2.) Tuple
